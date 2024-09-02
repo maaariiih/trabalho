@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pedido do Mc</h1>
+    <form method="get" action="teste.jsp"></form>
+   Nome: <input type="text" name="Nome"> <br>
+   Email: <input type="email" name="email"> <br>
+   Sanduíche: 
+    <input type="radio" name="Sanduíche" value="big mac"> Big Mac
+    <input type="radio" name="Sanduíche" value="quarteirão"> Quarteirão
+    <input type="radio" name="Sanduíche" value="mc fish"> Mc Fish
+    <input type="radio" name="Sanduíche" value="cheddar mcmelt"> Cheddar McMelt
+   <br>
+    Acompanhamento:
+    <input type="radio" name="Acompanhamento" value="Mc Fritas"> Mc Fritas
+    <input type="radio" name="Acompanhamento" value="Mc Nuggets"> Mc Nuggets
+    <input type="radio" name="Acompanhamento" value="Salada"> Salada
+    <br>
+    Bebida:
+    <Select name="Bebida">
+        <option>Suco de Laranja</option>
+        <option>Suco de Uva</option>
+        <option>Coca Cola</option>
+        <option>Guaraná</option>
+        <option>Fanta Laranja</option>
+        <option>Fanta Uva</option>
+    </Select>
+<br>
+    Adicionais: 
+    <input type="checkbox" name="molho barbecue"> Molho Barbecue + R$1,50
+    <input type="checkbox" name="mostarda e mel"> Mostarda e Mel + R$1,50
+    <input type="checkbox" name="casquinha"> Casquinha + R$3,50
+<br>
+    Data da Entrega: <input type="date" name="data da entrega">
+    <br>
+    Comentário: <br> 
+    <textarea name="msg" rows="10" cols="30"></textarea>
+    <br>
+    <input type="submit">
+<br>
+    <table border="=1">
+        <caption>Preços</caption>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Big Mac</td>
+            <td>R$23,90</td>
+        </tr>
+        <tr>
+            <td>Quarteirão</td>
+            <td>R$28,90</td>
+        </tr>
+        <tr>
+            <td>Mc Fish</td>
+            <td>R$22,90</td>
+        </tr>
+        <tr>
+            <td>Cheddar McMelt</td>
+            <td>R$25,90</td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
